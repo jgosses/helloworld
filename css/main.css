@@ -1,11 +1,28 @@
 header {
+    margin: 2em;
+    max-width: 75em;
     display:flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+
 }
 
-.image {
+header img {
+    height: 108.5px;
+    width: 125px;
+}
 
+nav a {
+    text-decoration-line: none;
+    padding: .5em;
+    color: gray;
 }
 
 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 290px;
+    list-style: none;
 
 }
