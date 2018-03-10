@@ -1,5 +1,5 @@
 header {
-    margin: 2em;
+    margin: .1em;
     max-width: 75em;
     display:flex;
     justify-content: space-between;
@@ -16,6 +16,13 @@ nav a {
     text-decoration-line: none;
     padding: .5em;
     color: gray;
+    background-color: pink;
+    margin: .3em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
 }
 
 ul {
@@ -25,4 +32,14 @@ ul {
     width: 290px;
     list-style: none;
 
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: tan;
+    height: 5em;
+    margin: .2em;
 }
