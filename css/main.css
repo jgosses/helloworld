@@ -109,26 +109,31 @@ header ul {
 main .lead_content {
     display: flex;
     justify-content: space-around;
-
+    margin: 1em;
 }
 
 .html-img {
-    height: 90.25px;
-    width: 64px;
+    height: 66px;
+    width: 71.25px;
 }
 
 .css-img {
-    height: 90.25px;
-    width: 64px;
+    height: 66px;
+    width: 71.25px;
 }
 
 .js-img {
-    height: 90.25px;
-    width: 64px;
+    height: 66px;
+    width: 71.25px;
 }
 
 main .columns_1-3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: auto 2em;
+}
+
+.lead-content p {
+    margin: 4em;
 }
