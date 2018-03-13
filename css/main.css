@@ -115,16 +115,19 @@ main .lead_content {
 .html-img {
     height: 66px;
     width: 71.25px;
+    padding: 0 0 1em;
 }
 
 .css-img {
     height: 66px;
     width: 71.25px;
+    padding: 0 0 1em;
 }
 
 .js-img {
     height: 66px;
     width: 71.25px;
+    padding: 0 0 1em;
 }
 
 main .columns_1-3 {
