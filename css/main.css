@@ -106,8 +106,29 @@ header ul {
 
 /* ================= Layout: Main ================= */
 
-span {
+main .lead_content {
     display: flex;
     justify-content: space-around;
 
+}
+
+.html-img {
+    height: 90.25px;
+    width: 64px;
+}
+
+.css-img {
+    height: 90.25px;
+    width: 64px;
+}
+
+.js-img {
+    height: 90.25px;
+    width: 64px;
+}
+
+main .columns_1-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
