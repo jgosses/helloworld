@@ -7,6 +7,11 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
+/* ================= HTML ============================== */
+html {
+    background-color: lightgray
+}
+
 /* ================= Body ==============================* */
 
 body {
@@ -24,7 +29,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: tan;
+    background-color: rgb(160, 189, 160);
     height: 5em;
     margin: 0em;
 }
@@ -39,7 +44,7 @@ div h2 {
 
 
 header {
-    margin: 1em;
+    margin: .5em;
     max-width: 70em;
     display:flex;
     justify-content: space-between;
@@ -53,6 +58,7 @@ header img {
 
 header nav {
     display: flex;
+    justify-content: space-between;
 
 }
 
@@ -60,17 +66,13 @@ header nav {
 nav a {
     text-decoration-line: none;
     padding: .5em;
-    color: gray;
-    background-color: pink;
+    color: black;
+    background-color: #da873f;
     margin: .3em;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-}
 
-ul {
+header ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -80,6 +82,8 @@ ul {
     padding: 1em;
 
 }
+
+/* ================= Layout: Main ================= */
 
 span {
     display: flex;
