@@ -140,3 +140,12 @@ main .columns_1-3 {
 .lead-content p {
     margin: 4em;
 }
+
+/* =========== THIS IS INCORRECT - DO FURTHER RESEARCH ================== */
+@media (min-width: 32em) {
+    main .lead-content {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
